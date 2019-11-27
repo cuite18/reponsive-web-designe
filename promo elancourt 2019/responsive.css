@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-start;
+    flex-direction: row;
+    line-height: 10vh;
+    height: 10vh;
+    width: 100vw;
+    background-color: #373C3F;
+}
+.nav li{
+    margin-left: 2.5vw;
+}
+li{
+    list-style-type: none;
+    align-items: center;
+}
+
+.first{
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+    background-color: #11ABBF;
+    color: white;
+}
