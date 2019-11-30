@@ -1,29 +1,76 @@
 *{
-    box-sizing: border-box;
     margin: 0;
 }
-.nav{
+.container{
     display: flex;
-    justify-content: space-between;
-    justify-content: flex-start;
+}
+.row{
     flex-direction: row;
-    line-height: 10vh;
-    height: 10vh;
-    width: 100vw;
-    background-color: #373C3F;
 }
-.nav li{
-    margin-left: 2.5vw;
-}
-li{
-    list-style-type: none;
-    align-items: center;
-}
-
-.first{
-    align-items: center;
+.column{
     flex-direction: column;
-    height: 60vh;
-    background-color: #11ABBF;
+}
+header{
+    background-color: #373C3F;
+    height: 10vh;
+}
+nav a{
     color: white;
+    text-decoration-line: none;
+}
+nav{
+    align-items: center;
+    justify-content: space-around;
+    height: 10.5vh;
+    width: 50vw;
+}
+#first{
+    background-color: #11ABBF;
+    height: 75vh;
+    justify-content: center;
+    padding-left: 15vw;
+    color: white;
+    font-size: xx-large;
+
+}
+#first p{
+    opacity: 0.5;
+    padding-top: 3.5vw;
+}
+#first img{
+    height: 5vh;
+    width: 2.5vw;
+    padding-left: 55vw;
+}
+#second h2{
+    background-color: #27212d;
+    width: 85vw;
+    height: 35vh;
+    color: grey;
+    padding-left: 15vw;
+    padding-top: -30vw;
+}
+#second div{
+    background-color: #BC3184;
+    width: 15vw;
+    height: 35vh;
+}
+#second div img{
+    padding-top: 5vw;
+    padding-left: 5vw;
+}
+#third img{
+    width: 50vw;
+    height: 50vh;
+}
+#third div{ 
+    background-color: #5a0fa0;
+    width: 25vw;
+    height: 50vh;
+}
+#third div img{
+    width: 5vw;
+    height: 7.5vh;
+    padding-left: 7.5vw;
+    padding-top: 5vw;
 }
